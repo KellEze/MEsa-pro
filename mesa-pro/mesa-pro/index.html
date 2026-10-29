@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mesa Pro · Interclasse de vôlei de mesa</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+<h1>Mesa<span> Pro</span></h1>
+<p class="sub">Interclasse de vôlei de mesa · Colégio Sinerge</p>
+</header>
+<div id="prog"></div>
+<nav role="tablist">
+<button class="tab" role="tab" data-a="tab" data-v="partidas">Partidas</button>
+<button class="tab" role="tab" data-a="tab" data-v="tabela">Classificação</button>
+<button class="tab" role="tab" data-a="tab" data-v="hist">Histórico</button>
+<button class="tab" role="tab" data-a="tab" data-v="equipes">Equipes</button>
+</nav>
+<main id="app"></main>
+</div>
+<div id="ov" hidden role="dialog" aria-modal="true" aria-label="Placar da partida"></div>
+<script src="app.js"></script>
+</body>
+</html>
